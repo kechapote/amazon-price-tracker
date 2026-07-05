@@ -1,0 +1,9 @@
+// Cloudflare Workers の静的アセット配信設定。
+// Git連携でこのリポジトリをデプロイすると site/ がそのまま公開される。
+{
+  "name": "amazon-price-tracker",
+  "compatibility_date": "2026-01-01",
+  "assets": {
+    "directory": "./site"
+  }
+}
